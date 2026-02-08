@@ -1,0 +1,231 @@
+{
+    "message": "config_get",
+    "version": "2022-03-19",
+    "type": "ENB",
+    "name": "ENB",
+    "license_id": "b2cd08416c25a6056b0577142365af7e7d1f0549c0d121d2c2",
+    "license_user": "University of Patras ",
+    "logs": {
+        "layers": {
+            "PHY": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "MAC": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "RLC": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "PDCP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "RRC": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "NAS": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "S1AP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "NGAP": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "GTPU": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "X2AP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "XnAP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "M2AP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "LPPa": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "NRPPa": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "TRX": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            }
+        },
+        "bcch": false,
+        "signal": false,
+        "cch": false,
+        "rep": false,
+        "dci_size": false,
+        "csi": false,
+        "cell_meas": false,
+        "count": 8192,
+        "rotate": 250000000,
+        "path": "/var/log/lte"
+    },
+    "tai": 1736511696.446,
+    "global_gnb_id": {
+        "plmn": "00101",
+        "gnb_id_bits": 28,
+        "gnb_id": 74566,
+        "gnb_name": "gnb0012346"
+    },
+    "nr_cells": {
+        "2": {
+            "n_antenna_dl": 2,
+            "n_antenna_ul": 1,
+            "n_layer_dl": 2,
+            "n_layer_ul": 0,
+            "gain": 0,
+            "ul_disabled": false,
+            "rf_port": 0,
+            "dl_qam": 256,
+            "ul_qam": 64,
+            "ncgi": {
+                "plmn": "00101",
+                "nci": 19088898
+            },
+            "n_id_nrcell": 501,
+            "band": 78,
+            "dl_nr_arfcn": 632628,
+            "ul_nr_arfcn": 632628,
+            "dl_freq": 3489420000,
+            "ul_freq": 3489420000,
+            "n_rb_dl": 133,
+            "n_rb_ul": 133,
+            "ssb_nr_arfcn": 631584,
+            "dl_mu": 1,
+            "ul_mu": 1,
+            "ssb_mu": 1,
+            "mode": "TDD",
+            "prach_sequence_index": 1,
+            "gbr": {
+                "dl_limit": 24514560,
+                "ul_limit": 7150080
+            },
+            "connected_mobility": {
+                "scell_config": false,
+                "nr_handover": true,
+                "nr_cell_redirect": false,
+                "eutra_handover": false,
+                "eutra_cell_redirect": false,
+                "nr_dc_setup": false,
+                "mr_dc_release": false
+            },
+            "ncell_list": [
+                {
+                    "rat": "nr",
+                    "ssb_nr_arfcn": 638976,
+                    "n_id_nrcell": 500,
+                    "ncgi": {
+                        "plmn": "00101",
+                        "nci": 19088641
+                    },
+                    "handover_target": true,
+                    "cell_redirect_target": true
+                }
+            ],
+            "plmn_list": [
+                {
+                    "plmn_ids": [
+                        "00101"
+                    ],
+                    "reserved": false,
+                    "tac": 100,
+                    "nssai": [
+                        {
+                            "sst": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "rx_channels": [
+        {
+            "gain": 60,
+            "freq": 3489.42,
+            "port": 0
+        }
+    ],
+    "tx_channels": [
+        {
+            "gain": 89.75,
+            "freq": 3489.42,
+            "port": 0
+        },
+        {
+            "gain": 89.75,
+            "freq": 3489.42,
+            "port": 0
+        }
+    ],
+    "rf_ports": [
+        {
+            "sample_rate": 61440000
+        }
+    ],
+    "message_id": "id#1",
+    "time": 2435.441
+}

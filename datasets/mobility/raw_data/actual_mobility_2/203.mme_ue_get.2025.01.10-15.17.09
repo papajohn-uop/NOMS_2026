@@ -1,0 +1,68 @@
+{
+    "message": "ue_get",
+    "message_id": "id#1",
+    "ue_list": [
+        {
+            "imsi": "001010000045637",
+            "imeisv": "8664830545976717",
+            "5g_tmsi": 1763962642,
+            "registered": true,
+            "ue_aggregate_max_bitrate_dl": 5000000000,
+            "ue_aggregate_max_bitrate_ul": 2000000000,
+            "tac": 100,
+            "tac_plmn": "00101",
+            "t3512": 1800,
+            "bearers": [
+                {
+                    "pdu_session_id": 1,
+                    "sst": 1,
+                    "qos_flow_id": 1,
+                    "ip": "172.16.222.212",
+                    "dl_total_bytes": 12289864,
+                    "ul_total_bytes": 535879,
+                    "apn": "internet"
+                }
+            ],
+            "ran_plmn": "00101",
+            "ran_id": 74565,
+            "ran_ue_id": 1381,
+            "amf_ue_id": 401
+        },
+        {
+            "imsi": "001010000034722",
+            "imeisv": "8603020507753447",
+            "5g_tmsi": 2880297400,
+            "registered": true,
+            "ue_aggregate_max_bitrate_dl": 5000000000,
+            "ue_aggregate_max_bitrate_ul": 2000000000,
+            "tac": 100,
+            "tac_plmn": "00101",
+            "t3512": 1800,
+            "bearers": [
+                {
+                    "pdu_session_id": 1,
+                    "sst": 1,
+                    "qos_flow_id": 1,
+                    "ip": "172.16.222.214",
+                    "dl_total_bytes": 55609867,
+                    "ul_total_bytes": 3924762,
+                    "apn": "internet"
+                }
+            ],
+            "ran_plmn": "00101",
+            "ran_id": 74565,
+            "ran_ue_id": 1385,
+            "amf_ue_id": 402
+        },
+        {
+            "imsi": "001010000045636",
+            "imeisv": "8693600512889545",
+            "5g_tmsi": 4224205001,
+            "registered": false,
+            "ue_aggregate_max_bitrate_dl": 5000000000,
+            "ue_aggregate_max_bitrate_ul": 2000000000
+        }
+    ],
+    "time": 5681.313,
+    "utc": 1736515029.858
+}

@@ -1,0 +1,102 @@
+{
+    "message": "ue_get",
+    "message_id": "id#1",
+    "ue_list": [
+        {
+            "ran_ue_id": 122,
+            "amf_ue_id": 126,
+            "qos_flow_list": [
+                {
+                    "pdu_session_id": 1,
+                    "dl_total_bytes": 4605000,
+                    "ul_total_bytes": 38454,
+                    "sst": 1
+                }
+            ],
+            "rnti": 18042,
+            "cells": [
+                {
+                    "cell_id": 1,
+                    "dl_bitrate": 13022769,
+                    "ul_bitrate": 642461,
+                    "dl_tx": 2,
+                    "ul_tx": 2,
+                    "dl_err": 0,
+                    "ul_err": 0,
+                    "dl_retx": 0,
+                    "ul_retx": 1,
+                    "pusch_snr": 1.6,
+                    "epre": -109.1,
+                    "ul_phr": 20,
+                    "ul_path_loss": 71.7,
+                    "p_ue": -10,
+                    "dl_mcs": 17,
+                    "turbo_decoder_min": 2,
+                    "turbo_decoder_avg": 3.333,
+                    "turbo_decoder_max": 5,
+                    "cqi": 12,
+                    "ri": 2,
+                    "ul_rank": 1,
+                    "initial_ta": 5
+                }
+            ]
+        },
+        {
+            "ran_ue_id": 121,
+            "qos_flow_list": [],
+            "rnti": 18041,
+            "cells": [
+                {
+                    "cell_id": 1,
+                    "dl_bitrate": 0,
+                    "ul_bitrate": 0,
+                    "dl_tx": 0,
+                    "ul_tx": 0,
+                    "dl_err": 0,
+                    "ul_err": 0,
+                    "dl_retx": 2,
+                    "ul_retx": 0,
+                    "pusch_snr": -1.9,
+                    "epre": -120.1,
+                    "cqi": 5,
+                    "ri": 1,
+                    "ul_rank": 1,
+                    "initial_ta": 5
+                }
+            ]
+        },
+        {
+            "ran_ue_id": 119,
+            "qos_flow_list": [
+                {
+                    "pdu_session_id": 1,
+                    "dl_total_bytes": 0,
+                    "ul_total_bytes": 0,
+                    "sst": 1
+                }
+            ],
+            "rnti": 18039,
+            "cells": [
+                {
+                    "cell_id": 1,
+                    "dl_bitrate": 0,
+                    "ul_bitrate": 0,
+                    "dl_tx": 0,
+                    "ul_tx": 0,
+                    "dl_err": 0,
+                    "ul_err": 0,
+                    "dl_retx": 0,
+                    "ul_retx": 0,
+                    "pusch_snr": 27.6,
+                    "epre": -84.4,
+                    "cqi": 5,
+                    "ri": 1,
+                    "ul_rank": 1,
+                    "initial_ta": 5
+                }
+            ]
+        }
+    ],
+    "time": 683.32,
+    "utc": 1738754459.331
+}

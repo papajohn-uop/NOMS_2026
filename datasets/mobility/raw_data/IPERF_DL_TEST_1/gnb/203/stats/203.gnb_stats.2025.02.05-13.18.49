@@ -1,0 +1,123 @@
+{
+    "message": "stats",
+    "message_id": "id#1",
+    "instance_id": "67a346ed",
+    "cpu": {},
+    "cells": {
+        "1": {
+            "dl_bitrate": 69114920,
+            "ul_bitrate": 209860,
+            "dl_tx": 235,
+            "ul_tx": 31,
+            "dl_err": 0,
+            "ul_err": 0,
+            "dl_retx": 169,
+            "ul_retx": 24,
+            "dl_use_min": 0,
+            "dl_use_max": 1,
+            "dl_use_avg": 0.724,
+            "ul_use_min": 0.03,
+            "ul_use_max": 1,
+            "ul_use_avg": 0.254,
+            "dl_sched_users_min": 0,
+            "dl_sched_users_max": 1,
+            "dl_sched_users_avg": 0.72,
+            "ul_sched_users_min": 0,
+            "ul_sched_users_max": 1,
+            "ul_sched_users_avg": 0.344,
+            "ue_count_min": 1,
+            "ue_count_max": 1,
+            "ue_count_avg": 1,
+            "ue_active_count_min": 1,
+            "ue_active_count_max": 1,
+            "ue_active_count_avg": 1,
+            "ue_inactive_count_min": 0,
+            "ue_inactive_count_max": 0,
+            "ue_inactive_count_avg": 0,
+            "drb_count_min": 1,
+            "drb_count_max": 1,
+            "drb_count_avg": 1,
+            "dl_gbr_use_min": 0,
+            "dl_gbr_use_max": 0,
+            "dl_gbr_use_avg": 0,
+            "ul_gbr_use_min": 0,
+            "ul_gbr_use_max": 0,
+            "ul_gbr_use_avg": 0,
+            "counters": {
+                "messages": {
+                    "prach": 93,
+                    "handover_command": 7,
+                    "handover_preparation": 11,
+                    "handover_source_success": 7,
+                    "handover_target_success": 9,
+                    "nr_rrc_setup": 20,
+                    "nr_rrc_setup_request": 16,
+                    "nr_rrc_reestablishment_request": 17,
+                    "nr_rrc_reconfiguration": 62,
+                    "nr_rrc_release": 15,
+                    "nr_rrc_reestablishment": 13,
+                    "nr_rrc_security_mode_command": 17,
+                    "nr_rrc_dl_information_transfer": 20,
+                    "nr_rrc_ue_capability_enquiry": 5,
+                    "nr_rrc_measurement_report": 37,
+                    "nr_rrc_reconfiguration_complete": 64,
+                    "nr_rrc_setup_complete": 18,
+                    "nr_rrc_reestablishment_complete": 5,
+                    "nr_rrc_security_mode_complete": 17,
+                    "nr_rrc_ul_information_transfer": 24,
+                    "nr_rrc_ue_capability_information": 5,
+                    "nr_rrc_paging": 17
+                },
+                "errors": {
+                    "rrc_connection_reestablishment_reject_no_cn_context": 4
+                }
+            }
+        }
+    },
+    "rf_ports": {
+        "0": {
+            "rxtx_delay": {
+                "min": 2.766,
+                "max": 3.463,
+                "avg": 3.142,
+                "sd": 0.14
+            }
+        }
+    },
+    "counters": {
+        "messages": {
+            "ng_downlink_nas_transport": 20,
+            "ng_initial_context_setup_request": 17,
+            "ng_initial_context_setup_response": 17,
+            "ng_initial_ue_message": 18,
+            "ng_setup_request": 1,
+            "ng_setup_response": 1,
+            "ng_paging": 18,
+            "ng_path_switch_request": 9,
+            "ng_path_switch_request_acknowledge": 9,
+            "ng_pdu_session_resource_release_command": 1,
+            "ng_pdu_session_resource_release_response": 1,
+            "ng_pdu_session_resource_setup_request": 2,
+            "ng_pdu_session_resource_setup_response": 2,
+            "ng_ue_context_release_command": 19,
+            "ng_ue_context_release_complete": 19,
+            "ng_ue_context_release_request": 11,
+            "ng_ue_radio_capability_info_indication": 4,
+            "ng_uplink_nas_transport": 24,
+            "xn_handover_request_sent": 7,
+            "xn_handover_request_recv": 11,
+            "xn_handover_request_acknowledge_sent": 11,
+            "xn_handover_request_acknowledge_recv": 7,
+            "xn_sn_status_transfer_sent": 7,
+            "xn_sn_status_transfer_recv": 11,
+            "xn_ue_context_release_sent": 9,
+            "xn_ue_context_release_recv": 7,
+            "xn_setup_request_sent": 1,
+            "xn_setup_response_recv": 1
+        },
+        "errors": {}
+    },
+    "duration": 0.4,
+    "time": 553.962,
+    "utc": 1738754329.966
+}

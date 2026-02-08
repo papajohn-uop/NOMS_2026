@@ -1,0 +1,117 @@
+{
+    "message": "stats",
+    "message_id": "id#1",
+    "instance_id": "678107a4",
+    "cpu": {},
+    "counters": {
+        "messages": {
+            "ng_downlink_nas_transport": 173,
+            "ng_initial_context_setup_request": 239,
+            "ng_initial_context_setup_response": 235,
+            "ng_initial_ue_message": 305,
+            "ng_setup_request": 2,
+            "ng_setup_response": 2,
+            "ng_paging": 652,
+            "ng_path_switch_request": 173,
+            "ng_path_switch_request_acknowledge": 173,
+            "ng_pdu_session_resource_release_command": 3,
+            "ng_pdu_session_resource_release_response": 3,
+            "ng_pdu_session_resource_setup_request": 5,
+            "ng_pdu_session_resource_setup_response": 5,
+            "ng_ue_context_release_command": 303,
+            "ng_ue_context_release_complete": 303,
+            "ng_ue_context_release_request": 150,
+            "ng_ue_radio_capability_info_indication": 5,
+            "ng_uplink_nas_transport": 122,
+            "5gs_nas_registration_request": 153,
+            "5gs_nas_registration_accept": 98,
+            "5gs_nas_registration_complete": 93,
+            "5gs_nas_registration_reject": 59,
+            "5gs_nas_deregistration_request_ul": 2,
+            "5gs_nas_service_request": 151,
+            "5gs_nas_service_accept": 151,
+            "5gs_nas_configuration_update_command": 4,
+            "5gs_nas_authentication_request": 8,
+            "5gs_nas_authentication_response": 4,
+            "5gs_nas_authentication_failure": 4,
+            "5gs_nas_identity_request": 3,
+            "5gs_nas_identity_response": 3,
+            "5gs_nas_security_mode_command": 4,
+            "5gs_nas_security_mode_complete": 4,
+            "5gs_nas_5gmm_status": 2,
+            "5gs_nas_ul_nas_transport": 13,
+            "5gs_nas_dl_nas_transport": 8,
+            "5gs_nas_pdu_session_establishment_request": 5,
+            "5gs_nas_pdu_session_establishment_accept": 5,
+            "5gs_nas_pdu_session_release_request": 3,
+            "5gs_nas_pdu_session_release_command": 3,
+            "5gs_nas_pdu_session_release_complete": 3,
+            "diam_cer": 4,
+            "diam_cea": 4
+        },
+        "errors": {}
+    },
+    "emm_registered_ue_count": 2,
+    "s1_connections": [],
+    "ng_connections": [
+        {
+            "plmn": "00101",
+            "ran_id_type": "gNB",
+            "ran_id": 74565,
+            "ip_addr": "172.16.100.203:34715",
+            "ta_list": [
+                {
+                    "plmn": "00101",
+                    "tac": 100
+                }
+            ],
+            "cn_connected_ue_count": 0
+        },
+        {
+            "plmn": "00101",
+            "ran_id_type": "gNB",
+            "ran_id": 74566,
+            "ip_addr": "172.16.100.202:43386",
+            "ta_list": [
+                {
+                    "plmn": "00101",
+                    "tac": 100
+                }
+            ],
+            "cn_connected_ue_count": 1
+        }
+    ],
+    "pdn_list": [
+        {
+            "access_point_name": "default",
+            "ul_bytes": 0,
+            "dl_bytes": 0
+        },
+        {
+            "access_point_name": "default1",
+            "ul_bytes": 0,
+            "dl_bytes": 0
+        },
+        {
+            "access_point_name": "internet",
+            "ul_bytes": 7992377,
+            "dl_bytes": 122375780
+        },
+        {
+            "access_point_name": "ims",
+            "ul_bytes": 0,
+            "dl_bytes": 0
+        },
+        {
+            "access_point_name": "sos",
+            "ul_bytes": 0,
+            "dl_bytes": 0
+        }
+    ],
+    "users": {
+        "total": 17,
+        "max_registered": 3
+    },
+    "time": 5799.5,
+    "utc": 1736515148.069
+}

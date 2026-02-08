@@ -1,0 +1,218 @@
+{
+    "message": "config_get",
+    "message_id": "id#1",
+    "version": "2023-12-15",
+    "type": "MME",
+    "name": "MME",
+    "license_id": "a2dd08c3ee25fb586b7301146c2aaf292a1f0e42c06c9cd254",
+    "license_user": "University of Patras ",
+    "logs": {
+        "layers": {
+            "NAS": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false,
+                "plmn": false
+            },
+            "IP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "S1AP": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "NGAP": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "GTPU": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "IMS": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "CX": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "RX": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "S6": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "S13": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "SGsAP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "SBcAP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "LCSAP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "LPPa": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N12": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N8": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N17": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N50": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N13": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "NL1": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N5": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N20": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "HTTP2": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "EPDG": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "IKEV2": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "IPSEC": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false,
+                "verbose": false
+            },
+            "PROD": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            }
+        },
+        "bcch": false,
+        "mib": false,
+        "signal": false,
+        "cch": false,
+        "rep": false,
+        "dci_size": false,
+        "csi": false,
+        "cell_meas": false,
+        "ntn": false,
+        "count": 8192,
+        "rotate": 250000000,
+        "path": "/var/log/lte"
+    },
+    "time": 2315.303,
+    "utc": 1736511663.868
+}

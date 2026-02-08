@@ -1,0 +1,199 @@
+{
+    "message": "config_get",
+    "version": "2022-03-19",
+    "type": "MME",
+    "name": "MME",
+    "license_id": "b2cd08416c25a6056b0577142365af7e7d1f0549c0d121d2c2",
+    "license_user": "University of Patras ",
+    "logs": {
+        "layers": {
+            "NAS": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "IP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "S1AP": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "NGAP": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "GTPU": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "IMS": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "CX": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "RX": {
+                "level": "debug",
+                "max_size": 1,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "S6": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "S13": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "SGsAP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "SBcAP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "LCSAP": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "LPPa": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N12": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N8": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N17": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N50": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "N13": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "NL1": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "HTTP2": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "EPDG": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "IKEV2": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "IPSEC": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            },
+            "PROD": {
+                "level": "error",
+                "max_size": 0,
+                "key": false,
+                "crypto": false,
+                "payload": false
+            }
+        },
+        "bcch": false,
+        "signal": false,
+        "cch": false,
+        "rep": false,
+        "dci_size": false,
+        "csi": false,
+        "cell_meas": false,
+        "count": 8192,
+        "rotate": 250000000,
+        "path": "/var/log/lte"
+    },
+    "message_id": "id#1",
+    "time": 5713.872
+}

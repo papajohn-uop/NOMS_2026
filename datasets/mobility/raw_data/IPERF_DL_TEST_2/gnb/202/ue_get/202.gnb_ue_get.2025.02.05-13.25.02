@@ -1,0 +1,36 @@
+{
+    "message": "ue_get",
+    "ue_list": [
+        {
+            "ran_ue_id": 424,
+            "amf_ue_id": 129,
+            "rnti": 18344,
+            "cells": [
+                {
+                    "cell_id": 2,
+                    "dl_bitrate": 22052776,
+                    "ul_bitrate": 52005,
+                    "dl_tx": 106,
+                    "ul_tx": 23,
+                    "dl_retx": 489,
+                    "ul_retx": 4,
+                    "pusch_snr": 17.8,
+                    "epre": -108.9,
+                    "ul_phr": 5,
+                    "ul_path_loss": 96.5,
+                    "p_ue": 5,
+                    "dl_mcs": 17.2,
+                    "ul_mcs": 8.5,
+                    "turbo_decoder_min": 1,
+                    "turbo_decoder_avg": 1.964,
+                    "turbo_decoder_max": 5,
+                    "cqi": 12,
+                    "ri": 2,
+                    "initial_ta": 6
+                }
+            ]
+        }
+    ],
+    "message_id": "id#1",
+    "time": 2681.607
+}

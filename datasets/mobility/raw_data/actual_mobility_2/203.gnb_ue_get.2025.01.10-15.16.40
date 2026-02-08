@@ -1,0 +1,77 @@
+{
+    "message": "ue_get",
+    "message_id": "id#1",
+    "ue_list": [
+        {
+            "ran_ue_id": 1381,
+            "amf_ue_id": 401,
+            "qos_flow_list": [
+                {
+                    "pdu_session_id": 1,
+                    "dl_total_bytes": 0,
+                    "ul_total_bytes": 0,
+                    "sst": 1
+                }
+            ],
+            "rnti": 19301,
+            "cells": [
+                {
+                    "cell_id": 1,
+                    "dl_bitrate": 0,
+                    "ul_bitrate": 0,
+                    "dl_tx": 0,
+                    "ul_tx": 0,
+                    "dl_err": 0,
+                    "ul_err": 0,
+                    "dl_retx": 0,
+                    "ul_retx": 0,
+                    "pusch_snr": 13.5,
+                    "epre": -105.1,
+                    "ul_phr": 21,
+                    "ul_path_loss": 68.7,
+                    "p_ue": -11,
+                    "cqi": 10,
+                    "ri": 2,
+                    "ul_rank": 1,
+                    "initial_ta": 5
+                }
+            ]
+        },
+        {
+            "ran_ue_id": 1378,
+            "qos_flow_list": [
+                {
+                    "pdu_session_id": 1,
+                    "dl_total_bytes": 0,
+                    "ul_total_bytes": 0,
+                    "sst": 1
+                }
+            ],
+            "rnti": 19298,
+            "cells": [
+                {
+                    "cell_id": 1,
+                    "dl_bitrate": 0,
+                    "ul_bitrate": 0,
+                    "dl_tx": 0,
+                    "ul_tx": 0,
+                    "dl_err": 0,
+                    "ul_err": 0,
+                    "dl_retx": 0,
+                    "ul_retx": 0,
+                    "pusch_snr": 10.8,
+                    "epre": -107,
+                    "ul_phr": 24,
+                    "ul_path_loss": 66.9,
+                    "p_ue": -14,
+                    "cqi": 5,
+                    "ri": 1,
+                    "ul_rank": 1,
+                    "initial_ta": 5
+                }
+            ]
+        }
+    ],
+    "time": 5650.819,
+    "utc": 1736515001.831
+}

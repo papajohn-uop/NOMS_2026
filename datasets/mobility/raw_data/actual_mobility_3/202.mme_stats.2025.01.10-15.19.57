@@ -1,0 +1,44 @@
+{
+    "message": "stats",
+    "instance_id": "67810726",
+    "cpu": {},
+    "counters": {
+        "messages": {
+            "diam_cer": 6,
+            "diam_cea": 6
+        },
+        "errors": {}
+    },
+    "emm_registered_ue_count": 0,
+    "s1_connections": [],
+    "ng_connections": [],
+    "pdn_list": [
+        {
+            "access_point_name": "default",
+            "ul_bytes": 0,
+            "dl_bytes": 0
+        },
+        {
+            "access_point_name": "default1",
+            "ul_bytes": 0,
+            "dl_bytes": 0
+        },
+        {
+            "access_point_name": "internet",
+            "ul_bytes": 0,
+            "dl_bytes": 0
+        },
+        {
+            "access_point_name": "ims",
+            "ul_bytes": 0,
+            "dl_bytes": 0
+        },
+        {
+            "access_point_name": "sos",
+            "ul_bytes": 0,
+            "dl_bytes": 0
+        }
+    ],
+    "message_id": "id#1",
+    "time": 5976.351
+}

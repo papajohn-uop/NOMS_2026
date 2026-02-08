@@ -1,0 +1,43 @@
+{
+    "message": "ue_get",
+    "message_id": "id#1",
+    "ue_list": [
+        {
+            "ran_ue_id": 491,
+            "amf_ue_id": 276,
+            "qos_flow_list": [
+                {
+                    "pdu_session_id": 1,
+                    "dl_total_bytes": 622534,
+                    "ul_total_bytes": 28403,
+                    "sst": 1
+                }
+            ],
+            "rnti": 18411,
+            "cells": [
+                {
+                    "cell_id": 1,
+                    "dl_bitrate": 0,
+                    "ul_bitrate": 0,
+                    "dl_tx": 0,
+                    "ul_tx": 0,
+                    "dl_err": 0,
+                    "ul_err": 0,
+                    "dl_retx": 0,
+                    "ul_retx": 0,
+                    "pusch_snr": 11.1,
+                    "epre": -107.4,
+                    "ul_phr": 26,
+                    "ul_path_loss": 76.7,
+                    "p_ue": -16,
+                    "cqi": 13,
+                    "ri": 2,
+                    "ul_rank": 1,
+                    "initial_ta": 5
+                }
+            ]
+        }
+    ],
+    "time": 2308.141,
+    "utc": 1736511659.153
+}

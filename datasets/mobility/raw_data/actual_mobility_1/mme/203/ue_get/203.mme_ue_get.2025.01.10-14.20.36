@@ -1,0 +1,56 @@
+{
+    "message": "ue_get",
+    "message_id": "id#1",
+    "ue_list": [
+        {
+            "imsi": "001010000045637",
+            "imeisv": "8664830545976717",
+            "5g_tmsi": 1626787427,
+            "registered": true,
+            "ue_aggregate_max_bitrate_dl": 5000000000,
+            "ue_aggregate_max_bitrate_ul": 2000000000,
+            "tac": 100,
+            "tac_plmn": "00101",
+            "t3512": 1800,
+            "bearers": [
+                {
+                    "pdu_session_id": 1,
+                    "sst": 1,
+                    "qos_flow_id": 1,
+                    "ip": "172.16.222.212",
+                    "dl_total_bytes": 28692937,
+                    "ul_total_bytes": 2191132,
+                    "apn": "internet"
+                }
+            ],
+            "ran_plmn": "00101",
+            "ran_id": 74566,
+            "ran_ue_id": 266,
+            "amf_ue_id": 276
+        },
+        {
+            "imsi": "001010000034722",
+            "imeisv": "8603020507753447",
+            "5g_tmsi": 2786377749,
+            "registered": true,
+            "ue_aggregate_max_bitrate_dl": 5000000000,
+            "ue_aggregate_max_bitrate_ul": 2000000000,
+            "tac": 100,
+            "tac_plmn": "00101",
+            "t3512": 1800,
+            "bearers": [
+                {
+                    "pdu_session_id": 1,
+                    "sst": 1,
+                    "qos_flow_id": 1,
+                    "ip": "172.16.222.214",
+                    "dl_total_bytes": 5778,
+                    "ul_total_bytes": 5371,
+                    "apn": "internet"
+                }
+            ]
+        }
+    ],
+    "time": 2287.898,
+    "utc": 1736511636.445
+}

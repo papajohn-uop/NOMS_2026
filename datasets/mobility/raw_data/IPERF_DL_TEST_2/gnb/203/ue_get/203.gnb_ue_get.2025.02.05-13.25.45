@@ -1,0 +1,49 @@
+{
+    "message": "ue_get",
+    "message_id": "id#1",
+    "ue_list": [
+        {
+            "ran_ue_id": 138,
+            "amf_ue_id": 129,
+            "qos_flow_list": [
+                {
+                    "pdu_session_id": 1,
+                    "dl_total_bytes": 111756000,
+                    "ul_total_bytes": 149843,
+                    "sst": 1
+                }
+            ],
+            "rnti": 18058,
+            "cells": [
+                {
+                    "cell_id": 1,
+                    "dl_bitrate": 91750706,
+                    "ul_bitrate": 128608,
+                    "dl_tx": 418,
+                    "ul_tx": 49,
+                    "dl_err": 0,
+                    "ul_err": 0,
+                    "dl_retx": 153,
+                    "ul_retx": 10,
+                    "pusch_snr": 5.1,
+                    "epre": -110.1,
+                    "ul_phr": 22,
+                    "ul_path_loss": 73.1,
+                    "p_ue": -12,
+                    "dl_mcs": 15,
+                    "ul_mcs": 0,
+                    "ul_n_layer": 1,
+                    "turbo_decoder_min": 1,
+                    "turbo_decoder_avg": 2.25,
+                    "turbo_decoder_max": 5,
+                    "cqi": 10,
+                    "ri": 1,
+                    "ul_rank": 1,
+                    "initial_ta": 5
+                }
+            ]
+        }
+    ],
+    "time": 969.936,
+    "utc": 1738754745.948
+}

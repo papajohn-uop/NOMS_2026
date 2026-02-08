@@ -1,0 +1,116 @@
+{
+    "message": "stats",
+    "instance_id": "67a34013",
+    "cpu": {},
+    "cells": {
+        "2": {
+            "dl_bitrate": 99386040,
+            "ul_bitrate": 317240,
+            "dl_tx": 277,
+            "ul_tx": 31,
+            "dl_retx": 77,
+            "ul_retx": 5,
+            "dl_sched_users_min": 0,
+            "dl_sched_users_max": 1,
+            "dl_sched_users_avg": 0.542,
+            "ul_sched_users_min": 0,
+            "ul_sched_users_max": 1,
+            "ul_sched_users_avg": 0.231,
+            "ue_count_min": 1,
+            "ue_count_max": 1,
+            "ue_count_avg": 1,
+            "ue_active_count_min": 1,
+            "ue_active_count_max": 1,
+            "ue_active_count_avg": 1,
+            "ue_inactive_count_min": 0,
+            "ue_inactive_count_max": 0,
+            "ue_inactive_count_avg": 0,
+            "erab_count_min": 1,
+            "erab_count_max": 1,
+            "erab_count_avg": 1,
+            "dl_gbr_use_min": 0,
+            "dl_gbr_use_max": 0,
+            "dl_gbr_use_avg": 0,
+            "ul_gbr_use_min": 0,
+            "ul_gbr_use_max": 0,
+            "ul_gbr_use_avg": 0,
+            "counters": {
+                "messages": {
+                    "prach": 376,
+                    "handover_command": 45,
+                    "handover_preparation": 41,
+                    "nr_rrc_reject": 63,
+                    "nr_rrc_setup": 47,
+                    "nr_rrc_setup_request": 102,
+                    "nr_rrc_reestablishment_request": 8,
+                    "nr_rrc_reconfiguration": 104,
+                    "nr_rrc_release": 35,
+                    "nr_rrc_security_mode_command": 7,
+                    "nr_rrc_dl_information_transfer": 109,
+                    "nr_rrc_ue_capability_enquiry": 1,
+                    "nr_rrc_measurement_report": 92,
+                    "nr_rrc_reconfiguration_complete": 96,
+                    "nr_rrc_setup_complete": 41,
+                    "nr_rrc_security_mode_complete": 7,
+                    "nr_rrc_ul_information_transfer": 76,
+                    "nr_rrc_ue_capability_information": 1,
+                    "nr_rrc_paging": 53
+                },
+                "errors": {
+                    "rrc_connection_reject_setup": 61,
+                    "rrc_connection_reestablishment_reject_setup": 2,
+                    "rrc_connection_reestablishment_reject_no_match": 6
+                }
+            }
+        }
+    },
+    "rf_ports": {
+        "0": {
+            "rxtx_delay": {
+                "min": 2.754,
+                "max": 3.43,
+                "avg": 3.09,
+                "sd": 0.143
+            }
+        }
+    },
+    "counters": {
+        "messages": {
+            "ng_downlink_nas_transport": 109,
+            "ng_initial_context_setup_request": 7,
+            "ng_initial_context_setup_response": 7,
+            "ng_initial_ue_message": 41,
+            "ng_setup_request": 4,
+            "ng_setup_response": 4,
+            "ng_paging": 58,
+            "ng_path_switch_request": 41,
+            "ng_path_switch_request_acknowledge": 41,
+            "ng_pdu_session_resource_setup_request": 1,
+            "ng_pdu_session_resource_setup_response": 1,
+            "ng_ue_context_release_command": 40,
+            "ng_ue_context_release_complete": 40,
+            "ng_ue_context_release_request": 33,
+            "ng_ue_radio_capability_info_indication": 1,
+            "ng_uplink_nas_transport": 76,
+            "xn_handover_request_sent": 45,
+            "xn_handover_request_recv": 41,
+            "xn_handover_request_acknowledge_sent": 41,
+            "xn_handover_request_acknowledge_recv": 45,
+            "xn_sn_status_transfer_sent": 45,
+            "xn_sn_status_transfer_recv": 41,
+            "xn_ue_context_release_sent": 41,
+            "xn_ue_context_release_recv": 40,
+            "xn_setup_request_sent": 2,
+            "xn_setup_request_recv": 3,
+            "xn_setup_response_sent": 2,
+            "xn_setup_response_recv": 1,
+            "xn_setup_failure_sent": 1,
+            "xn_setup_failure_recv": 1,
+            "xn_ng_ran_node_configuration_update_sent": 1
+        },
+        "errors": {}
+    },
+    "duration": 0.4,
+    "message_id": "id#1",
+    "time": 2425.921
+}

@@ -1,0 +1,27 @@
+{
+    "message": "ue_get",
+    "ue_list": [
+        {
+            "ran_ue_id": 428,
+            "rnti": 18348,
+            "cells": [
+                {
+                    "cell_id": 2,
+                    "dl_bitrate": 0,
+                    "ul_bitrate": 0,
+                    "dl_tx": 0,
+                    "ul_tx": 0,
+                    "dl_retx": 0,
+                    "ul_retx": 0,
+                    "pusch_snr": 0,
+                    "epre": 0,
+                    "cqi": 5,
+                    "ri": 1,
+                    "initial_ta": 0
+                }
+            ]
+        }
+    ],
+    "message_id": "id#1",
+    "time": 2734.828
+}
