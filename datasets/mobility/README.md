@@ -20,6 +20,16 @@ mobility/
 ├── test_iperf_dl_test_2/                 # Mobility Test 3: Throughput measurement during mobility (Round 2)
 │   ├── dataset_IPERF_DL_TEST_2_GNB_202.json
 │   └── dataset_IPERF_DL_TEST_2_GNB_203.json
+├── raw_data/                             # Raw unprocessed testbed data (source for aggregated datasets)
+│   ├── actual_mobility_1/                # Raw data: Real mobility test 1
+│   │   ├── gnb/
+│   │   └── mme/
+│   ├── actual_mobility_2/                # Raw data: Real mobility test 2
+│   ├── actual_mobility_3/                # Raw data: Real mobility test 3
+│   ├── IPERF_DL_TEST_1/                  # Raw data: iPerf downlink test 1
+│   │   └── gnb/
+│   └── IPERF_DL_TEST_2/                  # Raw data: iPerf downlink test 2
+│       └── gnb/
 ├── scripts/                              # Data processing and analysis utilities
 │   ├── main.py
 │   ├── main_poc.py
@@ -228,6 +238,76 @@ Check: Data completeness, timestamp continuity, value ranges
    ```bash
    python scripts/get_timestamps.py dataset.json
    ```
+
+## Raw Data (raw_data/ folder)
+
+The `raw_data/` folder contains the unprocessed, time-series data directly exported from the 5G testbed monitoring system. These are the source files used to generate the aggregated dataset files.
+
+### Raw Data Structure
+
+```
+raw_data/
+├── actual_mobility_1/
+│   ├── gnb/                    # gNodeB (base station) data
+│   └── mme/                    # MME (Mobility Management Entity) data
+├── actual_mobility_2/          # Multiple config/stats/ue_get files per timestamp
+├── actual_mobility_3/          # Multiple config/stats/ue_get files per timestamp
+├── IPERF_DL_TEST_1/
+│   └── gnb/
+└── IPERF_DL_TEST_2/
+    └── gnb/
+```
+
+### File Types in Raw Data
+
+Raw data files follow a naming convention: `{device_id}.{data_type}.{timestamp}`
+
+| File Pattern | Description | Contains |
+|---|---|---|
+| `*_config_get.*` | Configuration snapshots | gNodeB/MME configuration parameters |
+| `*_stats.*` | Statistics/metrics | Real-time performance metrics and counters |
+| `*_ue_get.*` | User Equipment info | Connected UE details and per-device metrics |
+| `gnb/` | gNodeB data directory | Base station specific measurements |
+| `mme/` | MME data directory | Mobility management and session data |
+
+### Raw Data Characteristics
+
+**Sampling Frequency**: 5-second intervals (e.g., timestamps: 15.15.35, 15.15.40, 15.15.45...)
+
+**Device IDs**:
+- `202`: gNodeB 202 data
+- `203`: gNodeB 203 data
+
+**Data Sources**:
+- **gNodeB files**: Cell-level metrics (power, throughput, signal quality)
+- **MME files**: Mobility events, session management, UE attachment info
+
+### Using Raw Data
+
+**For detailed analysis**:
+- Inspect raw files directly for unfiltered, time-stamped data
+- Useful for validating aggregated dataset accuracy
+- Examine signal measurements at specific timestamps
+
+**For reproducibility**:
+- Regenerate aggregated datasets from raw_data using scripts in `scripts/` folder
+- Verify data processing pipeline transformations
+
+**For traceability**:
+- Track metrics back to exact measurement timestamps
+- Correlate events across gNodeB and MME systems
+
+### Data Processing Pipeline
+
+```
+raw_data/ files (5-second interval snapshots)
+    ↓
+scripts/*.py (data aggregation and processing)
+    ↓
+test_*/ folders (processed dataset JSONs)
+    ↓
+dataset.json (aggregated across all tests)
+```
 
 ## File Sizes and Metadata
 
