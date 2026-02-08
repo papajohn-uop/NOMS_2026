@@ -2,6 +2,8 @@
 
 This folder contains power metrics data collected from three experiments/tests of the 5G testbed. Each test has three versions of the data with different levels of processing.
 
+The data were gathered through a Prometheus that is sued in the testbed to keep this information.
+
 ## Folder Structure
 
 ```
