@@ -1,0 +1,2194 @@
+{
+    "dataset_id": "AI_HO",
+    "dataset_name": "AI_HO",
+    "dataset_description": "Dataset for AI handover",
+    "dataset_metadata": [
+        {
+            "metadata_name": "gnb_id",
+            "metadata_value": "202"
+        },
+        {
+            "metadata_name": "test_name",
+            "metadata_value": "IPERF_DL_TEST_1_GNB_202"
+        }
+    ],
+    "entries": {
+        "2025.02.05-13.18.18": {
+            "dataset_entry_id": "2025.02.05-13.18.18",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.18.22": {
+            "dataset_entry_id": "2025.02.05-13.18.22",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.18.25": {
+            "dataset_entry_id": "2025.02.05-13.18.25",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.18.29": {
+            "dataset_entry_id": "2025.02.05-13.18.29",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.18.32": {
+            "dataset_entry_id": "2025.02.05-13.18.32",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "405",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18325"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "104110398"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "183243"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "610"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "55"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "10"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "15.5"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "26.3"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "18.1"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "78.9"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "-5"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.18.35": {
+            "dataset_entry_id": "2025.02.05-13.18.35",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "405",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18325"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "111526905"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "144926"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "69"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "6"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "11"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "17.2"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "27.7"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "26.1"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "70.5"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "-9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.18.39": {
+            "dataset_entry_id": "2025.02.05-13.18.39",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "405",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18325"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "101250424"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "129610"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "388"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "31"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "11"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "13.3"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "25.5"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "27.2"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "79.5"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "3"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.18.42": {
+            "dataset_entry_id": "2025.02.05-13.18.42",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "405",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18325"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "129354493"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "140106"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "610"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "54"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "13"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "18.1"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "17.2"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "27.3"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "81.8"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.18.45": {
+            "dataset_entry_id": "2025.02.05-13.18.45",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "405",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18325"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "72103420"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "98027"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "205"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "14"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "8"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "8.3"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "13.1"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "26.2"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "97.4"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.18.49": {
+            "dataset_entry_id": "2025.02.05-13.18.49",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.18.52": {
+            "dataset_entry_id": "2025.02.05-13.18.52",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.18.55": {
+            "dataset_entry_id": "2025.02.05-13.18.55",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.18.59": {
+            "dataset_entry_id": "2025.02.05-13.18.59",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.02": {
+            "dataset_entry_id": "2025.02.05-13.19.02",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.05": {
+            "dataset_entry_id": "2025.02.05-13.19.05",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.09": {
+            "dataset_entry_id": "2025.02.05-13.19.09",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.12": {
+            "dataset_entry_id": "2025.02.05-13.19.12",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "407",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18327"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "55478439"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "470834"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "811"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "40"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "6"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "6"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "23.4"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "25.9"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "94.6"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.19.15": {
+            "dataset_entry_id": "2025.02.05-13.19.15",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "407",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18327"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "52707737"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "79371"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "234"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "12"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "6"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "5"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "17.5"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "32.1"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "82.5"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "-7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.19.19": {
+            "dataset_entry_id": "2025.02.05-13.19.19",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "407",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18327"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "52423549"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "93425"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "575"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "32"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "6"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "4.8"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "10.2"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "21.8"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "83.4"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "-7"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.19.22": {
+            "dataset_entry_id": "2025.02.05-13.19.22",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "407",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18327"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "53115889"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "92705"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "919"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "52"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "6"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "5"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "7.6"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "17.1"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "83.6"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "-8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.19.25": {
+            "dataset_entry_id": "2025.02.05-13.19.25",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "407",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "122"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18327"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "31220947"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "45771"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "241"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "13"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "6"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "4.7"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "10.8"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "11.9"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "94.9"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.19.29": {
+            "dataset_entry_id": "2025.02.05-13.19.29",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.32": {
+            "dataset_entry_id": "2025.02.05-13.19.32",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.35": {
+            "dataset_entry_id": "2025.02.05-13.19.35",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.39": {
+            "dataset_entry_id": "2025.02.05-13.19.39",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.42": {
+            "dataset_entry_id": "2025.02.05-13.19.42",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.45": {
+            "dataset_entry_id": "2025.02.05-13.19.45",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.49": {
+            "dataset_entry_id": "2025.02.05-13.19.49",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.52": {
+            "dataset_entry_id": "2025.02.05-13.19.52",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.55": {
+            "dataset_entry_id": "2025.02.05-13.19.55",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.19.59": {
+            "dataset_entry_id": "2025.02.05-13.19.59",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "412",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18332"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "107206732"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "325162"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "349"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "37"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "12"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "18.4"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "17.4"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "23.3"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "74.3"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "-9"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.02": {
+            "dataset_entry_id": "2025.02.05-13.20.02",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "412",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18332"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "89321451"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "310416"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "444"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "64"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "15"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "19.8"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "9.7"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "13.4"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "77.7"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "-14"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.05": {
+            "dataset_entry_id": "2025.02.05-13.20.05",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "412",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18332"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "118153508"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "216085"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "235"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "23"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "12"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "16.1"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "16.6"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "26.9"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "90.9"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "2"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.09": {
+            "dataset_entry_id": "2025.02.05-13.20.09",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "412",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18332"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "99583729"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "306951"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "415"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "40"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "13"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "15.3"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "7.6"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "19.2"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "81.1"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.12": {
+            "dataset_entry_id": "2025.02.05-13.20.12",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "412",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18332"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "107013700"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "299128"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "612"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "69"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "12"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "16.6"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "9.8"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "16.3"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "86.6"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.15": {
+            "dataset_entry_id": "2025.02.05-13.20.15",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "414",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18334"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "28738374"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "396180"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "104"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "7"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "8"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "1"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "9"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "22.1"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "24"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "102.3"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "10"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.19": {
+            "dataset_entry_id": "2025.02.05-13.20.19",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.20.22": {
+            "dataset_entry_id": "2025.02.05-13.20.22",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.20.25": {
+            "dataset_entry_id": "2025.02.05-13.20.25",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.20.29": {
+            "dataset_entry_id": "2025.02.05-13.20.29",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.20.32": {
+            "dataset_entry_id": "2025.02.05-13.20.32",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.20.35": {
+            "dataset_entry_id": "2025.02.05-13.20.35",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.20.38": {
+            "dataset_entry_id": "2025.02.05-13.20.38",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.20.42": {
+            "dataset_entry_id": "2025.02.05-13.20.42",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "416",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18336"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "103039117"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "321574"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "674"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "45"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "11"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "12.9"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "24.7"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "24.8"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "88.4"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "-4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.45": {
+            "dataset_entry_id": "2025.02.05-13.20.45",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "416",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18336"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "138405523"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "256761"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "32"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "4"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "14"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "19.7"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "26.8"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "34.3"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "76.8"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.48": {
+            "dataset_entry_id": "2025.02.05-13.20.48",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "416",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18336"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "83665655"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "266425"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "218"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "23"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "12"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "15.1"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "12.8"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "18.1"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "80.1"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "6"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.52": {
+            "dataset_entry_id": "2025.02.05-13.20.52",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "416",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "124"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18336"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "101728124"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "304640"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "518"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "55"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "13"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "17.4"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "15.4"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "27.9"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "87.3"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "4"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.55": {
+            "dataset_entry_id": "2025.02.05-13.20.55",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {
+                        "2": {
+                            "cell_id": "2",
+                            "metrics": [
+                                {
+                                    "metric_name": "ue_count",
+                                    "metric_value": "1"
+                                }
+                            ],
+                            "ue_metrics": [
+                                {
+                                    "gnb_id": "202",
+                                    "cell_id": "2",
+                                    "ue_id": "418",
+                                    "metrics": [
+                                        {
+                                            "metric_name": "amf_ue_id",
+                                            "metric_value": "125"
+                                        },
+                                        {
+                                            "metric_name": "rnti",
+                                            "metric_value": "18338"
+                                        },
+                                        {
+                                            "metric_name": "dl_bitrate",
+                                            "metric_value": "1"
+                                        },
+                                        {
+                                            "metric_name": "ul_bitrate",
+                                            "metric_value": "0"
+                                        },
+                                        {
+                                            "metric_name": "dl_tx",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "ul_tx",
+                                            "metric_value": "2"
+                                        },
+                                        {
+                                            "metric_name": "cqi",
+                                            "metric_value": "5"
+                                        },
+                                        {
+                                            "metric_name": "ri",
+                                            "metric_value": "1"
+                                        },
+                                        {
+                                            "metric_name": "dl_mcs",
+                                            "metric_value": "5.3"
+                                        },
+                                        {
+                                            "metric_name": "ul_mcs",
+                                            "metric_value": "6.5"
+                                        },
+                                        {
+                                            "metric_name": "pusch_snr",
+                                            "metric_value": "7"
+                                        },
+                                        {
+                                            "metric_name": "ul_path_loss",
+                                            "metric_value": "96.1"
+                                        },
+                                        {
+                                            "metric_name": "p_ue",
+                                            "metric_value": "-8"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "2025.02.05-13.20.59": {
+            "dataset_entry_id": "2025.02.05-13.20.59",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.02": {
+            "dataset_entry_id": "2025.02.05-13.21.02",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.05": {
+            "dataset_entry_id": "2025.02.05-13.21.05",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.09": {
+            "dataset_entry_id": "2025.02.05-13.21.09",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.12": {
+            "dataset_entry_id": "2025.02.05-13.21.12",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.16": {
+            "dataset_entry_id": "2025.02.05-13.21.16",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.19": {
+            "dataset_entry_id": "2025.02.05-13.21.19",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.22": {
+            "dataset_entry_id": "2025.02.05-13.21.22",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.25": {
+            "dataset_entry_id": "2025.02.05-13.21.25",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.29": {
+            "dataset_entry_id": "2025.02.05-13.21.29",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.32": {
+            "dataset_entry_id": "2025.02.05-13.21.32",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        },
+        "2025.02.05-13.21.35": {
+            "dataset_entry_id": "2025.02.05-13.21.35",
+            "gnb_metrics": {
+                "202": {
+                    "gnb_id": "202",
+                    "metrics": [],
+                    "cell_metrics": {}
+                }
+            }
+        }
+    },
+    "ue_metrics_metadata": [
+        {
+            "name": "amf_ue_id",
+            "entity": "UE",
+            "unit": "Integer",
+            "description": "AMF UE id. It is present when the UEassociated logical NG-connection is setup."
+        },
+        {
+            "name": "rnti",
+            "entity": "UE",
+            "unit": "Integer",
+            "description": "RNTI:Radio Network Temporary Identifier"
+        },
+        {
+            "name": "dl_bitrate",
+            "entity": "UE",
+            "unit": "bps",
+            "description": "Downlink bitrate in bits per seconds at PHY layer level (Counts acknowledged transmissions)."
+        },
+        {
+            "name": "ul_bitrate",
+            "entity": "UE",
+            "unit": "bps",
+            "description": "Ul_bitrate bitrate in bits per seconds at PHY layer level (Counts acknowledged transmissions)."
+        },
+        {
+            "name": "dl_tx",
+            "entity": "UE",
+            "unit": "Integer",
+            "description": "Number of downlink transmitted transport blocks (without retransmissions)."
+        },
+        {
+            "name": "ul_tx",
+            "entity": "UE",
+            "unit": "Integer",
+            "description": " Number of received uplink transport blocks (withoutCRC error)."
+        },
+        {
+            "name": "dl_err",
+            "entity": "UE",
+            "unit": "Integer",
+            "description": " Number of downlink non transmitted transport blocks (after retransmissions)."
+        },
+        {
+            "name": "cqi",
+            "entity": "UE",
+            "unit": "Number",
+            "description": "Last reported cqi"
+        },
+        {
+            "name": "ri",
+            "entity": "UE",
+            "unit": "Number",
+            "description": "Last reported rank indicator"
+        },
+        {
+            "name": "dl_mcs",
+            "entity": "UE",
+            "unit": "Number",
+            "description": "Average downlink MCS."
+        },
+        {
+            "name": "ul_mcs",
+            "entity": "UE",
+            "unit": "Number",
+            "description": "Average uplink MCS."
+        },
+        {
+            "name": "pusch_snr",
+            "entity": "UE",
+            "unit": "Number",
+            "description": "Last received PUSCH snr."
+        },
+        {
+            "name": "ul_path_loss",
+            "entity": "UE",
+            "unit": "Number",
+            "description": "Last computed UL path loss in dB, estimated from PHR."
+        },
+        {
+            "name": "p_ue",
+            "entity": "UE",
+            "unit": "Number",
+            "description": "UE transmission power indB, estimated from PHR and"
+        }
+    ]
+}
